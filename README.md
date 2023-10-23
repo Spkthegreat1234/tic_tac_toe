@@ -23,8 +23,10 @@ The functions used in the code are as follows:
   6. **insert_letter:** Takes input of _'X'_ or _'O'_ into the board.
   7. **player_move:** Used to take input from the player into the board and allows only valid positions(empty and       between 1 to 9).
   8. **computer_move:** This is the main algorithm working behind the moves made by the computer.
-    > It creates a list _possible_moves_ that has the remaining positions.
-    > It checks the board if the computer can fill any position and secure a victory, if not it proceeds next.
-    > It next checks the corners(1,3,7,9) and if they are open it fills any corner from the board and assigns it         to the move variable. If no corners are free it proceeds further.
-    > It checks if the centre of the board(5) is free and if found empty sets 5 as the move variable's value. If         centre is found to be filled it proceeds further. 
-    > Next it checks the edge positions(2,4,6,8) and randomly fills any empty edge position by assigning it to the       move variable 
+     a. It creates a list _possible_moves_ that has the remaining positions.
+     b. It checks the board if the computer can fill any position and secure a victory, if not it proceeds next.
+     c. It next checks the corners(1,3,7,9) and if they are open it fills any corner from the board and assigns it         to the move variable. If no corners are free it proceeds further.
+     d. It checks if the centre of the board(5) is free and if found empty sets 5 as the move variable's value. If         centre is found to be filled it proceeds further. 
+     e. Next it checks the edge positions(2,4,6,8) and randomly fills any empty edge position by assigning it to           the move variable 
+
+      
